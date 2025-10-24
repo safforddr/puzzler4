@@ -187,7 +187,8 @@
       function computer_play() {
           if (count(board) == 1) {
               log('<h2>You Won!</h2>');
-              log('The actual gift is hidden in the Christmas card itself. Take it apart carefully!');
+              log('The actual gift is hidden in the Christmas card.');
+			  log('Take it apart carefully!');
               return;
           }
           minimax(board, 1);
